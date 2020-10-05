@@ -417,7 +417,7 @@ TOML.parse = function(toml, options)
 
 		-- skip comments and whitespace
 		if char() == "#" then
-			while(not char():match(nl)) do
+			while(not char():match(nl) and cursor <= toml:len()) do
 				step()
 			end
 		end
