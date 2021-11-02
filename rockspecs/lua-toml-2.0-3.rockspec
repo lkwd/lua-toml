@@ -1,5 +1,5 @@
 package = "lua-toml"
-version = "2.0-2"
+version = "2.0-3"
 source = {
 	url = "https://github.com/lkwd/lua-toml.git",
 	tag = "v2.0.3",
